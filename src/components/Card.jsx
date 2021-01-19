@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Card(post) {
   return (
-    <div className="card my-3">
+    <div className="card m-3 fade-in">
       {post.img ? 
         <img className='card-img-top' src={post.img}/> : ""
       }
